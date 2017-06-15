@@ -62,7 +62,6 @@ public class AuthorizationServlet extends HttpServlet {
 
                 resp.sendRedirect("view");
 
-//                req.getRequestDispatcher("welcome.jsp").forward(req, resp); 
             } else {
 
                 req.getRequestDispatcher("login.jsp").forward(req, resp);
